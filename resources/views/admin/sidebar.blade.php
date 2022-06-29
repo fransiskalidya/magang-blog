@@ -28,7 +28,7 @@
 </div>
 
 <li class="nav-item active">
-    <a class="nav-link" href="index.html">
+    <a class="nav-link" href="{{ route('posts.index') }}">
         <i class="fa fa-bookmark"></i>
         <span>Post</span></a>
 </li>
@@ -37,11 +37,11 @@
         <i class="fa fa-file"></i>
         <span>Categories</span></a>
 </li>
-<li class="nav-item active">
+<!-- <li class="nav-item active">
     <a class="nav-link" href="index.html">
         <i class="fa fa-tags"></i>
         <span>Tags</span></a>
-</li>
+</li> -->
 <!-- Nav Item - Pages Collapse Menu -->
 <!-- <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
@@ -85,13 +85,13 @@
     User Permission 
 </div>
 
-<li class="nav-item active">
-    <a class="nav-link" href="index.html">
+<!-- <li class="nav-item active">
+    <a class="nav-link" href="">
         <i class="fa fa-user-times"></i>
         <span>Role</span></a>
-</li>
+</li> -->
 <li class="nav-item active">
-    <a class="nav-link" href="index.html">
+    <a class="nav-link" href="{{ route('users.index') }}">
         <i class="fa fa-user"></i>
         <span>User</span></a>
 </li>
@@ -116,19 +116,19 @@
     </div>
 </li> -->
 
-<hr class="sidebar-divider">
+<!-- <hr class="sidebar-divider"> -->
 
 <!-- Heading -->
-<div class="sidebar-heading">
+<!-- <div class="sidebar-heading">
     Settings
-</div>
+</div> -->
 
 <!-- Nav Item - Charts -->
-<li class="nav-item">
+<!-- <li class="nav-item">
     <a class="nav-link" href="charts.html">
         <i class="fa fa-folder"></i>
         <span>File</span></a>
-</li>
+</li> -->
 
 <!-- Nav Item - Tables -->
 <!-- <li class="nav-item">

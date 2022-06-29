@@ -31,5 +31,8 @@ Route::group(['prefix' => 'dashboard', 'middleware'=> ['auth']], function(){
     //dashboard
     Route::get('/', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard.index');
     //categories
+    Route::get('/categories/select',[App\Http\Controllers\CategoryController::class, 'select'])->name('categories.select');
     Route::resource('/categories', App\Http\Controllers\CategoryController::class);
+    Route::resource('/posts', App\Http\Controllers\PostController::class);
+    Route::resource('/users', App\Http\Controllers\UserController::class);
 });
